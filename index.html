@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartSiteBot - AI Website Builder</title>
+    <meta name="description" content="Build beautiful websites in minutes with AI. No coding required. Professional results guaranteed.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="min-h-screen text-white bg-gradient-dark overflow-x-hidden">
+    <!-- Floating background elements -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none">
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        <div class="floating-element floating-3"></div>
+        <div class="floating-element floating-4"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="relative z-50 glass sticky top-0">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-blue-cyan rounded-xl flex items-center justify-center shadow-lg">
+                        <span class="text-white font-bold text-lg">S</span>
+                    </div>
+                    <span class="text-xl font-bold text-gradient">SmartSiteBot</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors">Features</a>
+                    <a href="#pricing" class="text-gray-300 hover:text-white transition-colors">Pricing</a>
+                    <a href="/build" class="btn-primary text-white px-6 py-2 rounded-lg font-medium">Build Your Site</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-20 pb-32 px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto text-center">
+            <div class="animate-fade-in">
+                <div class="mb-8 inline-flex items-center glass px-4 py-2 rounded-full">
+                    <svg class="w-4 h-4 mr-2 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span class="text-blue-300">AI-Powered Website Creation</span>
+                </div>
+                
+                <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight">
+                    <span class="text-white">Build Beautiful</span>
+                    <br>
+                    <span class="text-gradient">AI Websites</span>
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
+                    Create stunning websites in minutes with AI. Just enter your business details and watch your 
+                    <span class="text-emerald-400 font-semibold">professional website come to life</span>.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+                    <a href="/build" class="btn-primary text-white px-10 py-4 text-lg rounded-lg font-semibold inline-flex items-center justify-center">
+                        <span>Build My Website Now</span>
+                        <svg class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                    </a>
+                    <button class="btn-secondary text-white px-10 py-4 text-lg rounded-lg font-semibold inline-flex items-center justify-center">
+                        <svg class="mr-2 h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path>
+                        </svg>
+                        <span>View Examples</span>
+                    </button>
+                </div>
+                
+                <!-- Stats -->
+                <div class="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+                    <div class="glass glass-hover p-6 rounded-2xl transition-all duration-500">
+                        <div class="text-3xl font-bold text-emerald-400 mb-2">5 mins</div>
+                        <div class="text-gray-300">Average Build Time</div>
+                    </div>
+                    <div class="glass glass-hover p-6 rounded-2xl transition-all duration-500">
+                        <div class="text-3xl font-bold text-blue-400 mb-2">100+</div>
+                        <div class="text-gray-300">Sites Built Today</div>
+                    </div>
+                    <div class="glass glass-hover p-6 rounded-2xl transition-all duration-500">
+                        <div class="text-3xl font-bold text-cyan-400 mb-2">Free</div>
+                        <div class="text-gray-300">No Credit Card</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-32 relative">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-20 animate-slide-up">
+                <h2 class="text-5xl md:text-6xl font-bold mb-6 text-white">How It Works</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">Three simple steps to get your professional website online</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass glass-hover p-8 rounded-2xl transition-all duration-500">
+                    <div class="w-20 h-20 bg-gradient-blue-cyan rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-white">01</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4 text-center">Enter Your Details</h3>
+                    <p class="text-gray-300 leading-relaxed text-center">Tell us about your business - name, type, location, and services. Takes less than 2 minutes.</p>
+                </div>
+                
+                <div class="glass glass-hover p-8 rounded-2xl transition-all duration-500">
+                    <div class="w-20 h-20 bg-gradient-to-r from-cyan-500 to-cyan-400 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-white">02</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4 text-center">AI Builds Your Site</h3>
+                    <p class="text-gray-300 leading-relaxed text-center">Our AI selects the perfect design and content for your industry, creating a custom website in minutes.</p>
+                </div>
+                
+                <div class="glass glass-hover p-8 rounded-2xl transition-all duration-500">
+                    <div class="w-20 h-20 bg-gradient-emerald rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <span class="text-2xl font-bold text-white">03</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4 text-center">Go Live Instantly</h3>
+                    <p class="text-gray-300 leading-relaxed text-center">Your website is automatically deployed and live on the internet with a custom domain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-32 relative">
+        <div class="max-w-5xl mx-auto text-center px-6 lg:px-8">
+            <div class="glass p-12 rounded-3xl">
+                <h2 class="text-5xl md:text-6xl font-bold mb-6 text-white">Ready to Build Your Website?</h2>
+                <p class="text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
+                    Join thousands of businesses who've built their perfect website in minutes with AI.
+                </p>
+                <a href="/build" class="btn-primary text-white px-12 py-4 text-lg rounded-lg font-semibold inline-flex items-center">
+                    <span>Start Building Now - It's Free</span>
+                    <svg class="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </a>
+                <p class="text-gray-400 mt-6 text-sm">No credit card required • Live in 5 minutes • Professional quality</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative py-20 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-12">
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-10 h-10 bg-gradient-blue-cyan rounded-xl flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">S</span>
+                        </div>
+                        <span class="text-2xl font-bold text-gradient">SmartSiteBot</span>
+                    </div>
+                    <p class="text-gray-400 max-w-md">
+                        AI-powered website creation that builds beautiful, professional websites in minutes. No coding required.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-6 text-white">Product</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#features" class="hover:text-white transition-colors">How It Works</a></li>
+                        <li><a href="/build" class="hover:text-white transition-colors">Build Site</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Examples</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-6 text-white">Support</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
+                        <li><a href="mailto:help@smartsitebot.com" class="hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Status</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 mt-16 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 SmartSiteBot. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
